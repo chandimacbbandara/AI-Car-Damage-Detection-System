@@ -1,0 +1,8 @@
+ultralytics>=8.0.0
+torch
+torchvision
+gradio
+opencv-python-headless
+matplotlib
+numpy
+pillow
