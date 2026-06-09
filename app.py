@@ -424,10 +424,9 @@ with gr.Blocks(title="AutoInspect AI - Vehicle Damage Inspection System") as dem
 
     with gr.Row():
         with gr.Column(scale=1):
-            gr.Markdown("### ⚙️ Inspection Configuration")
-            conf_threshold = gr.Slider(minimum=0.1, maximum=1.0, value=0.4, step=0.05, label="YOLOv8 Detection Confidence")
-            iou_threshold = gr.Slider(minimum=0.1, maximum=1.0, value=0.3, step=0.05, label="Damage Match Overlap (IoU)")
-            sim_threshold = gr.Slider(minimum=0.5, maximum=1.0, value=0.82, step=0.01, label="Identity Match Threshold (ResNet-18)")
+            conf_threshold = gr.Slider(minimum=0.1, maximum=1.0, value=0.1, step=0.05, label="YOLOv8 Detection Confidence")
+            iou_threshold = gr.Slider(minimum=0.1, maximum=1.0, value=0.1, step=0.05, label="Damage Match Overlap (IoU)")
+            sim_threshold = gr.Slider(minimum=0.5, maximum=1.0, value=0.5, step=0.01, label="Identity Match Threshold (ResNet-18)")
 
     with gr.Row():
         with gr.Column():
