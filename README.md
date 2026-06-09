@@ -84,12 +84,8 @@ The corresponding validation confusion matrix details the classification accurac
 ## Visual Inspection Pipeline Results
 The unified inspection pipeline runs verification and checks for new damages across the four standard views: Front, Rear, Left, and Right. 
 
-### Notebook Pipeline Output
-The visual output of the master inspection pipeline inside the Jupyter Notebook is shown below:
-
-![Inspection Pipeline Notebook Result](evidence/inspection_pipeline_result.png)
-
 ### Gradio Application Interface Demo
 Below is a screenshot of the live Gradio web application demonstrating a vehicle inspection with localized new damages and structural alignment:
 
 ![Inspection Result](evidence/Screenshot%20from%202026-06-09%2014-32-03.png)
+
